@@ -31,6 +31,8 @@ windows, normalization, and limitations.
 - `device.png`: configured geometry, initial field, and drive.
 - [evolution.mp4](evolution.mp4): 1920 × 800, 24 fps visualization of the corrected
   case, with display-only temporal interpolation between diagnostic outputs.
+- [evolution-preview.gif](evolution-preview.gif): compact 720 × 300, 10 fps README
+  preview derived from the MP4, with a metadata sidecar.
 - [render.png](render.png): high-quality final-time render with a metadata sidecar.
 - [viewer.png](viewer.png): interactive viewer and tuning controls.
 - `sample/diags/fields/`: four unmodified original openPMD field snapshots

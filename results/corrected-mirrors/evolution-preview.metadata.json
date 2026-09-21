@@ -1,0 +1,12 @@
+{
+  "artifact": "results/corrected-mirrors/evolution-preview.gif",
+  "sha256": "97ecbcb407604362d6dcdb3f20b9f757f559d644ce4925dd3ff71009f1a6d4bc",
+  "source": "results/corrected-mirrors/evolution.mp4",
+  "source_sha256": "3aae4126e71814b3703b2517fe578c7b2af7ff9d85c19f9e188f5ca93ce50135",
+  "command": "ffmpeg -i evolution.mp4 -filter_complex [0:v]fps=10,scale=720:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=128:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=3:diff_mode=rectangle -loop 0 evolution-preview.gif",
+  "dimensions": [720, 300],
+  "frames": 80,
+  "fps": 10,
+  "duration_seconds": 8.0,
+  "ffmpeg": "n9.0"
+}

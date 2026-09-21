@@ -1,5 +1,9 @@
 # Yingguang-I: hybrid-PIC plasma formation
 
+[![Animated evolution of the corrected-mirror case; click for the full-quality video](results/corrected-mirrors/evolution-preview.gif)](results/corrected-mirrors/evolution.mp4)
+
+*Corrected-mirror case, 0–8 µs. Click the animation for the 1920 × 800 video.*
+
 An axisymmetric WarpX model of plasma formation in the Yingguang-I
 theta-pinch device, with kinetic hydrogen ions and fluid electrons.
 
@@ -53,12 +57,13 @@ simulation installation. The complete time series is included as CSV.
 
 ## Visualize the plasma
 
-[![Corrected-mirror density and magnetic field; click to play the video](results/corrected-mirrors/render.png)](results/corrected-mirrors/evolution.mp4)
+| Final-time render | Interactive viewer |
+|:---:|:---:|
+| ![Corrected-mirror density and magnetic field](results/corrected-mirrors/render.png) | [![Interactive viewer and controls](results/corrected-mirrors/viewer.png)](docs/visualization.md) |
 
 **[▶ Watch the 8 µs high-resolution visualization](results/corrected-mirrors/evolution.mp4)**
-— 1920 × 800, 24 fps. The image above is also the video thumbnail.
+— 1920 × 800, 24 fps.
 
-[Open the interactive-viewer preview](results/corrected-mirrors/viewer.png) ·
 [Viewer controls](docs/visualization.md)
 
 ```bash
