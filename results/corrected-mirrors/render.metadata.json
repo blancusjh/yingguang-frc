@@ -1,0 +1,70 @@
+{
+  "settings": {
+    "schema_version": 1,
+    "density_max": 5e+22,
+    "magnetic_max": 2.2,
+    "opacity": 0.6,
+    "density_cutoff": 0.015,
+    "opacity_gamma": 1.1,
+    "smoothing_r_cm": 0.08,
+    "smoothing_z_cm": 0.3,
+    "density_cmap": "jet",
+    "field_cmap": "turbo",
+    "line_opacity": 0.12,
+    "line_width": 1.0,
+    "line_density": 2,
+    "geometry_opacity": 0.18,
+    "show_lines": true,
+    "show_geometry": true,
+    "show_zero_field": false,
+    "auto_exposure": false,
+    "shade": false,
+    "camera": "presentation",
+    "camera_position": [
+      [
+        -30.0,
+        -105.0,
+        40.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "parallel_scale": 17.2,
+    "time_us": 7.999875599999999,
+    "quality": "high",
+    "fps": 8.0
+  },
+  "run": "/home/blancusjh/Computation/Plasma/yingguang-frc/runs/corrected-mirrors",
+  "time_us": 7.999875599999999,
+  "density_scale_m_minus_3": 5e+22,
+  "resampling_shape": [
+    352,
+    128
+  ],
+  "interpolation": "linear for display only",
+  "environment": {
+    "python": "3.14.6",
+    "pyvista": "0.48.4",
+    "vtk": "(9, 6, 2)",
+    "numpy": "2.5.1"
+  },
+  "source_sha256": {
+    "rendering.py": "2ba7f25c8b517c589cbbe3cf06e272e4f70d01dea831f622a03991aeb2ef9a54",
+    "scene.py": "b566b856fa4a5a01456ce135e1388375dc976cf6faa38c42e38f93467bced980",
+    "settings.py": "e989e0a1eb1a86380a8651aa6923dbaf99a84b9a50b8705481c714db24375461",
+    "animate.py": "3598e805e9c0565a7cb7b015aab1579263014dceb4700d18cda3b0f01d438133"
+  },
+  "size": [
+    1920,
+    800
+  ],
+  "kind": "image"
+}

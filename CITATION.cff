@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Please cite this repository and identify the commit and configuration used."
+title: "Yingguang-I: axisymmetric hybrid-PIC plasma formation"
+type: software
+authors:
+  - name: "Jhonatan S Blanco"
+repository-code: "https://github.com/blancusjh/yingguang-frc"
+abstract: >-
+  WarpX hybrid-PIC model and reproducible compactness analysis for the
+  completed corrected-mirror Yingguang-I configuration.

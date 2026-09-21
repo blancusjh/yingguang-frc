@@ -1,0 +1,28 @@
+# Local environments and simulation output
+.venv*/
+runs/
+results/local/
+/refs/
+build/
+dist/
+*.egg-info/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+# Runtime output outside runs
+*.log
+Backtrace.*
+pids
+# Editor and operating-system files
+.claude/
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+# Reference-document build products
+*.aux
+*.out
+*.toc
+*.synctex.gz

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "quality": "high",
+  "density_max": 5e22,
+  "magnetic_max": 2.2,
+  "density_cmap": "jet",
+  "opacity": 0.6,
+  "density_cutoff": 0.015,
+  "opacity_gamma": 1.1,
+  "line_density": 2,
+  "line_opacity": 0.12,
+  "geometry_opacity": 0.18,
+  "camera_position": [[-30, -105, 40], [0, 0, 0], [0, 0, 1]],
+  "parallel_scale": 17.2,
+  "auto_exposure": false
+}

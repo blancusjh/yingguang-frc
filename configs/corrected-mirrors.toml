@@ -1,0 +1,54 @@
+schema_version = 1
+name = "corrected-mirrors"
+status = "completed"
+description = "Completed corrected-mirror case; 48 x 176 cells, 20 particles per cell."
+
+# SI units unless the comment specifies otherwise.
+[parameters]
+R_COIL = 0.062
+R_TUBE = 0.0525
+L_COIL = 0.36
+W_FRINGE = 0.031
+Z_MIRROR = 0.30
+R_MIRROR = 0.07
+R_MIRROR_MEAN = 0.079
+DZ_SECTIONS = [-0.025, 0.0, 0.025]
+B_MIRROR_0 = -0.9          # T; opposes bias, aligns with theta-pinch
+B_BIAS = 0.2              # T
+B_DRIVE_AMP = 1.7         # T; drive is applied in the negative direction
+N_BANDS = 8
+RIPPLE_EPS = 1.2
+T_QUARTER = 3.8e-6        # s
+TAU_CROWBAR = 50.0e-6     # s
+N0 = 3.9e21              # m^-3
+T_I0 = 10.0              # eV
+T_E0 = 10.0              # eV
+R_PLASMA = 0.048
+DELTA_PLASMA = 0.003
+Z_PLASMA = 0.18
+DELTA_Z_PLASMA = 0.03
+LNLAMBDA = 10.0
+ETA0 = 1.47e-6           # ohm m; explicitly independent of T_E0
+ETA_HYPER = 3.5e-10      # ohm m^3
+N_FLOOR_FRAC = 0.05
+ETA_CLAMP_FACTOR = 10.0
+LR = 0.0525
+LZ = 1.0
+NR = 48
+NZ = 176
+NPPC = 20
+DT_FACTOR = 0.04
+SUBSTEPS = 40
+T_SIM = 8.0e-6           # s
+
+[execution]
+crowbar = true
+t_crowbar = 2.2          # microseconds
+diag_ns = 200.0          # field interval; particles every 10 field intervals
+no_div_clean = true
+no_filter = false
+verbose = false
+substep_rtol = 1.0e-3
+substep_atol = 1.0e-6
+max_substep_attempts = 4000
+random_seed = "default"  # original WarpX default; GPU runs are not bitwise repeatable

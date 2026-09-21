@@ -1,0 +1,12 @@
+{
+  "artifact": "results/corrected-mirrors/evolution.mp4",
+  "sha256": "3aae4126e71814b3703b2517fe578c7b2af7ff9d85c19f9e188f5ca93ce50135",
+  "source_run": "runs/corrected-mirrors",
+  "command": "frc-render runs/corrected-mirrors --settings configs/render/presentation.json --out results/local/evolution.mp4 --duration 8 --fps 24 --size 1920 800",
+  "frames": 192,
+  "duration_seconds": 8,
+  "settings_file": "configs/render/presentation.json",
+  "render_metadata": "../evolution.metadata.json",
+  "source_field_checksums": "data-manifest.json:full_run_field_files",
+  "notes": "Linear interpolation between recorded fields is for display only; the physical simulation and measurements are unchanged."
+}

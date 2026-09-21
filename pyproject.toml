@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "yingguang-frc"
+version = "0.1.0"
+description = "Axisymmetric hybrid-PIC formation of a compact plasma in Yingguang-I"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = ["numpy>=2.0", "scipy>=1.13", "h5py>=3.11", "matplotlib>=3.9"]
+
+[project.optional-dependencies]
+render = ["pyvista>=0.44", "imageio-ffmpeg>=0.5"]
+
+[project.scripts]
+frc-run = "yingguang_frc.run:main"
+frc-compactness = "yingguang_frc.analysis.compactness:main"
+frc-report = "yingguang_frc.visualization.report:main"
+frc-view = "yingguang_frc.visualization.interactive:main"
+frc-render = "yingguang_frc.visualization.animate:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,25 @@
+name: CPU checks
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install -e .
+      - run: python -m unittest discover -s tests -v
+      - run: frc-run --config configs/reference.toml --output runs/ci-dry-run --dry-run
+      - run: frc-report results/reference/compactness.csv --out results/local/ci-report.png
+      - run: frc-compactness results/reference/sample --out results/local/ci-sample
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: sudo apt-get update && sudo apt-get install -y libegl1 libgl1
+      - run: python -m pip install -e '.[render]'
+      - run: python -m unittest discover -s tests -p test_visualization.py -v

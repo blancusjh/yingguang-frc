@@ -1,0 +1,236 @@
+{
+  "analysis_source_sha256": {
+    "src/yingguang_frc/__init__.py": "98ae63a11d4656707f08de36119e9bf71ea7b70361f17099f7cf25ae845c8e79",
+    "src/yingguang_frc/analysis/__init__.py": "0ec272ecff8edd97669878bed2acbf672d0fd47c0f9fe7d9c3a5b8b547ff3b0f",
+    "src/yingguang_frc/analysis/compactness.py": "756430ea8fb0def01c9b22de7f7e37b56e3896718c41e380b7afbe51ba9e4d49",
+    "src/yingguang_frc/analysis/confinement.py": "191a4638b86f7164cdeceb4e40f8199eda4a39992a49fae4a0caa652a2d2a49a",
+    "src/yingguang_frc/analysis/diagnostics.py": "a34d4562db9bd0d589717579f9b0d8c5978e1c2ac95f000cbfdeddc2c2ee9535",
+    "src/yingguang_frc/analysis/flux.py": "7c8a23dc2ca5da6cdcd564bd0e58d3ec9a6dd6ffacb0b9b0c5bd1effd257ea6b",
+    "src/yingguang_frc/analysis/openpmd.py": "274289edf877f85ada7bdbb94cb030969fa348b59d3e2893de776c21de2d8aca",
+    "src/yingguang_frc/config.py": "cc70aa2f8e03fa21b9bda302d8ef70337226575fc1e713837ed88ba420197cea",
+    "src/yingguang_frc/model/__init__.py": "37d78f855827528bb2f35243e446cf50272943d1ae8c4a2aa2498959dd7bcde1",
+    "src/yingguang_frc/model/parameters.py": "863004d1b183074463db4891dce0b66b71a2dd2e73b0b57eacdf617812d70471",
+    "src/yingguang_frc/model/simulation.py": "11cb4c14e034e5fd2f9a158fd28978fdb761a82f6a102f4248b1947fa16e5160",
+    "src/yingguang_frc/run.py": "98d4da89a2b5319896e3657660ec5db26d98c9b9d0511fdeae57effaaf8d7be1",
+    "src/yingguang_frc/visualization/__init__.py": "40c09cb1bd8a316bf5556bb060dec2ef3e99f85d23fac0819ee04a9dbac83bdf",
+    "src/yingguang_frc/visualization/animate.py": "3598e805e9c0565a7cb7b015aab1579263014dceb4700d18cda3b0f01d438133",
+    "src/yingguang_frc/visualization/design.py": "9aa913e9b38589ea8528f08ae43ed75b0845d4fbce380d9ac9d4a4751fb9ae6b",
+    "src/yingguang_frc/visualization/interactive.py": "4169265aa124dca4f4a6581bdaa45e5347b778b819528126cd2c53b65603e1e5",
+    "src/yingguang_frc/visualization/rendering.py": "2ba7f25c8b517c589cbbe3cf06e272e4f70d01dea831f622a03991aeb2ef9a54",
+    "src/yingguang_frc/visualization/report.py": "451a1d373d7788a63f006e417c3bf7ae490f821d6c078e0662fb71e5cb1c1777",
+    "src/yingguang_frc/visualization/scene.py": "b566b856fa4a5a01456ce135e1388375dc976cf6faa38c42e38f93467bced980",
+    "src/yingguang_frc/visualization/settings.py": "0380779b33d31b3da72a46fc938bfe4b5d8c464292c8ba463e743a3a66b77ebd"
+  },
+  "recipe_sha256": "0607779146ef1349eb9c79aa67fb80f6e3cc811cdedd7b278db81b0fcf7b285d",
+  "configuration": "configs/corrected-mirrors.toml",
+  "config_sha256": "ad6f178435a0894e31cbe02291d6492d2ef0a265686d4d0fe911c2994acda699",
+  "full_series_frames": 42,
+  "sample_frames": [
+    {
+      "path": "sample/diags/fields/openpmd_000000.h5",
+      "time_s": 0.0,
+      "sha256": "c1b4060141255f7f4aac2d8f6340dcece0e33857dcc3127831e25784d61d1e53",
+      "bytes": 951149
+    },
+    {
+      "path": "sample/diags/fields/openpmd_009090.h5",
+      "time_s": 1.9978260184427152e-06,
+      "sha256": "51049a5204a4bac85bed3ebf37b8966861fab05188b844931a0dc5fe053945ad",
+      "bytes": 951149
+    },
+    {
+      "path": "sample/diags/fields/openpmd_018180.h5",
+      "time_s": 3.995652036884379e-06,
+      "sha256": "1ce5fc3b3570b35004d56387e1b3582413a798241a943b0cd092193ba00ff361",
+      "bytes": 951149
+    },
+    {
+      "path": "sample/diags/fields/openpmd_036399.h5",
+      "time_s": 7.999875604545488e-06,
+      "sha256": "5e45c412ba4a0dde84be5a0832442a984e9b7a79856152f75d80281e515e2e25",
+      "bytes": 951149
+    }
+  ],
+  "sample_scope": "Selected original field snapshots; no particle data.",
+  "full_run_field_files": [
+    {
+      "path": "diags/fields/openpmd_000000.h5",
+      "sha256": "c1b4060141255f7f4aac2d8f6340dcece0e33857dcc3127831e25784d61d1e53"
+    },
+    {
+      "path": "diags/fields/openpmd_000909.h5",
+      "sha256": "f8845cac8361a339b8023ff28be4b3d3dbb0bd82a4691cf15e0b9aeb3d4ea47c"
+    },
+    {
+      "path": "diags/fields/openpmd_001818.h5",
+      "sha256": "945a15158a2053175f0a77d512f5812ebbc2d6bf6e8708e8c2092ebae0e00d1d"
+    },
+    {
+      "path": "diags/fields/openpmd_002727.h5",
+      "sha256": "bcf2ea57c1e5784863fd9ae89ecd2d8e5a5bee98728f32ce95942dba5c3fbe08"
+    },
+    {
+      "path": "diags/fields/openpmd_003636.h5",
+      "sha256": "d568c4da051e5436bf6f9e1ea8b44d5c5236e979573243e05599a7c5f2f89cf2"
+    },
+    {
+      "path": "diags/fields/openpmd_004545.h5",
+      "sha256": "f863229966c475aabd970bab04354ad9712ee427f7436afb68db3989f28f2b2c"
+    },
+    {
+      "path": "diags/fields/openpmd_005454.h5",
+      "sha256": "ac7d553c181a094142c81f0447d93abcf4f2c85245f505bd51ecc1ad3c7e30f1"
+    },
+    {
+      "path": "diags/fields/openpmd_006363.h5",
+      "sha256": "893aea795ddcd6e60ac2f7fe093e9da50e2cafe708b1b22063ef648c31d83a50"
+    },
+    {
+      "path": "diags/fields/openpmd_007272.h5",
+      "sha256": "c2eebb96032dd03b13ee3b3e5265e800d02237ca7b53a206cfe2b3c2f78a9a8f"
+    },
+    {
+      "path": "diags/fields/openpmd_008181.h5",
+      "sha256": "fc2ecd22d68c27cd9436a8e6893df49c73febfdb95e4f154d01d729a09fa0482"
+    },
+    {
+      "path": "diags/fields/openpmd_009090.h5",
+      "sha256": "51049a5204a4bac85bed3ebf37b8966861fab05188b844931a0dc5fe053945ad"
+    },
+    {
+      "path": "diags/fields/openpmd_009999.h5",
+      "sha256": "37da90c013c82cd4d79c589fedf1e3f112f6d1139aa1b669d7ec022b74c4af87"
+    },
+    {
+      "path": "diags/fields/openpmd_010908.h5",
+      "sha256": "5add7fe758cc0e4491d5d3475b72753159bb339e237ef18cfcdd99c842fee237"
+    },
+    {
+      "path": "diags/fields/openpmd_011817.h5",
+      "sha256": "d3aca099c171e900d6cdac618fa05b122d408adb75ea77786e2b57203b7a7ca7"
+    },
+    {
+      "path": "diags/fields/openpmd_012726.h5",
+      "sha256": "e4286194b2362ad3c68f917a5fed9d5b012ff77bdeab33feebcac02a94c88cfd"
+    },
+    {
+      "path": "diags/fields/openpmd_013635.h5",
+      "sha256": "f7eb6e4806eeb7ab2607c211e2a1c64203accab0a9679d451cc4d4a37c11d7fa"
+    },
+    {
+      "path": "diags/fields/openpmd_014544.h5",
+      "sha256": "f4e3b46540fded0b99f31f20c0657334baf90aad2eb269b3a0b581a301911234"
+    },
+    {
+      "path": "diags/fields/openpmd_015453.h5",
+      "sha256": "e407b98c26b00854ed5a5c7b06fe7b7c837c88ce7d3272240015f47567d06c0b"
+    },
+    {
+      "path": "diags/fields/openpmd_016362.h5",
+      "sha256": "3fd29534475b9529ad38f3023704767cd98537ed7e7be644cd6382929b8102c3"
+    },
+    {
+      "path": "diags/fields/openpmd_017271.h5",
+      "sha256": "b8fa6cceb5970404d7904d94ee9a88a0aa69e5f4242686106a1c4a575df4841f"
+    },
+    {
+      "path": "diags/fields/openpmd_018180.h5",
+      "sha256": "1ce5fc3b3570b35004d56387e1b3582413a798241a943b0cd092193ba00ff361"
+    },
+    {
+      "path": "diags/fields/openpmd_019089.h5",
+      "sha256": "a1861d5ab4c2fac1d74951931a3eccd95c18f2629efb6866b0ef6e1182055d82"
+    },
+    {
+      "path": "diags/fields/openpmd_019998.h5",
+      "sha256": "e0ecd7a81c627bff835aaf67e53780922a685c9e8cfb495be54f336fb0b4b4c3"
+    },
+    {
+      "path": "diags/fields/openpmd_020907.h5",
+      "sha256": "8cc01c735aec6ee6eb0a85d84c0db103d9c4720016a86815ac7dfdd488f0a567"
+    },
+    {
+      "path": "diags/fields/openpmd_021816.h5",
+      "sha256": "b959885acadb540972a71f37211362d71f8c0f17de92fd06d97c0d65fe3da4ac"
+    },
+    {
+      "path": "diags/fields/openpmd_022725.h5",
+      "sha256": "371ad445b6bfe2f6323e960e079ccddaf8d22c5cca0688743308aee9aaccf65f"
+    },
+    {
+      "path": "diags/fields/openpmd_023634.h5",
+      "sha256": "aaabe7d5c40ea7baab30f26f196735381aecdf41772510f255ec4e04b9696c95"
+    },
+    {
+      "path": "diags/fields/openpmd_024543.h5",
+      "sha256": "c74620390d91b8b26bb8bdc0520df48e42888458d2ab5143d99829bcdb87ddf5"
+    },
+    {
+      "path": "diags/fields/openpmd_025452.h5",
+      "sha256": "b4123a0b2283fd6b874d7c8e718963019143a9ec510047522ba497a6a3dff5d8"
+    },
+    {
+      "path": "diags/fields/openpmd_026361.h5",
+      "sha256": "e8e2f2e142d622c18ee8f943c4112c4dfab26911056d87b220a35d26584713b0"
+    },
+    {
+      "path": "diags/fields/openpmd_027270.h5",
+      "sha256": "604e574eb044e2d86b8eff8dfd78576ea3c7181251fff73d48ac8e70cf27500a"
+    },
+    {
+      "path": "diags/fields/openpmd_028179.h5",
+      "sha256": "2bc364dc3d7c8ee13dcf5be21a62576ccaaab0d7008df88bb0fb0391552fe89f"
+    },
+    {
+      "path": "diags/fields/openpmd_029088.h5",
+      "sha256": "d1c67bc3ee3029a3e892bcea2462a2aa98415d889a4fc906de66524b5385a93b"
+    },
+    {
+      "path": "diags/fields/openpmd_029997.h5",
+      "sha256": "ca1db57bb46f3fefa7e3baf9f2c1becec21e9816f7c822e15f0147eb42de23f8"
+    },
+    {
+      "path": "diags/fields/openpmd_030906.h5",
+      "sha256": "0d7ada7090550f77c812a2d68f4bdc3549fb5c2a31cbf046ba61739274d0f8e5"
+    },
+    {
+      "path": "diags/fields/openpmd_031815.h5",
+      "sha256": "4e672eb9536993f44c4220814aea7dcc4ef207b8e9f888d986a2f61543e5ae33"
+    },
+    {
+      "path": "diags/fields/openpmd_032724.h5",
+      "sha256": "a248d829abcce1853424263a42ad02cac4daecb6480bc90b9cc22aa77a5b406c"
+    },
+    {
+      "path": "diags/fields/openpmd_033633.h5",
+      "sha256": "90a2333825bf2ffa7d34a450568c4780e76775252b137bf53e8b1e68e42141e9"
+    },
+    {
+      "path": "diags/fields/openpmd_034542.h5",
+      "sha256": "672a58f50b856d875d4e39618ed44078bbcde16a35cbbf7183716cf4d1ffa1d3"
+    },
+    {
+      "path": "diags/fields/openpmd_035451.h5",
+      "sha256": "a681398aa29480f692d921c7717f7a5083432bf0c6d5f3a2e42fe54a96f9ef91"
+    },
+    {
+      "path": "diags/fields/openpmd_036360.h5",
+      "sha256": "83284d8c3ed802437dc4f99beb15f990eff7852be38a5cea53ad676d972fac01"
+    },
+    {
+      "path": "diags/fields/openpmd_036399.h5",
+      "sha256": "5e45c412ba4a0dde84be5a0832442a984e9b7a79856152f75d80281e515e2e25"
+    }
+  ],
+  "artifacts": {
+    "compactness.csv": "2c22c2b194458677e561e807a330164a8f9b1109a18d2f9c64aec83090521c05",
+    "compactness.png": "b961aee3755ca7642c3d807e0d020ab45d4379e7c97ee7e8f69786abc9fdb487",
+    "density.png": "b82d4aed57b1f08f377ab612da029681774dee106ed80e268f8e498bbe7d8283",
+    "device.png": "f049bc0cf3589c4d33b524ea6c799a04a67ebc57dee6f9082cf02f289b3787ac"
+  },
+  "measurement_definition": {
+    "coil_half_m": 0.18,
+    "center_half_m": 0.06,
+    "inventory": "cell-centered annular volumes"
+  }
+}

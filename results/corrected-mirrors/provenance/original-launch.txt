@@ -1,0 +1,11 @@
+#!/bin/bash
+set -eu
+cd "$(dirname "$0")"
+# Sun 2013 §2.3: mirrors oppose bias and align with the main theta-pinch.
+../../../.venv/bin/python ../../../model/frc_formation_rz.py \
+  --preview --diag-ns 200 --no-div-clean \
+  --eta-hyper 3.5e-10 --ti0 10 --te0 10 --eta0 1.47e-6 \
+  --z-plasma 0.18 --ripple 1.2 --crowbar --t-crowbar 2.2 \
+  --mirror -0.9 \
+  --n-floor-frac 0.05 --substep-rtol 1e-3 --substep-atol 1e-6 \
+  --max-substep-attempts 4000 > run.log 2>&1
