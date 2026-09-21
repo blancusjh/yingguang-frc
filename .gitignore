@@ -21,7 +21,7 @@ pids
 *.swp
 .DS_Store
 Thumbs.db
-# Reference-document build products
+# Bibliography build products
 *.aux
 *.out
 *.toc
